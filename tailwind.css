@@ -81,3 +81,20 @@ body {
       display: none;
    }
 }
+@media print {
+   .section-skills .skill-item  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #e0e0e0;
+      padding: .3rem .5rem;
+   }
+   .project-list {
+      display: flex;
+      gap:10px;
+      flex-wrap: wrap;
+      > div {
+         width: 32%;
+      }
+   }
+}
